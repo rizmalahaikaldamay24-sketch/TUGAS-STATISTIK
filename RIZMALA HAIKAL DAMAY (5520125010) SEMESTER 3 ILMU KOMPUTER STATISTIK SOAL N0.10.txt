@@ -1,0 +1,27 @@
+INPUT
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double lambda = 1;
+    int k = 2;
+
+    double hasil = (exp(-lambda) * pow(lambda, k)) / tgamma(k + 1);
+
+    cout << "Peluang = " << hasil << endl;
+    cout << "Persentase = " << hasil * 100 << "%" << endl;
+
+    return 0;
+}
+
+
+OUTPUT
+
+Peluang = 0.18394
+Persentase = 18.394%
+
+(EXCEL)
+0,18394	hasil soal nomor 10	
